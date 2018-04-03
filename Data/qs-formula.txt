@@ -1,0 +1,3 @@
+get formula: only({1<Description={'unutilized'}>}formula)
+Difference between: (sum({1<Practice={'D&AT'}>}Billable)/count({1<Practice={'D&AT'}>}Billable))-(sum({1<Practice={'Microsoft'}>}Billable)/count({1<Practice={'D&AT'}>}Billable))
+					sum({1<Practice={'D&AT'},Month={">$(=date('03/13/2018'))<$(=date('03/31/2018'))"}>}Billable)///count({1<Practice={'D&AT'}>}Billable)
